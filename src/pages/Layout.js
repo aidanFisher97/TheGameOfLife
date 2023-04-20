@@ -5,7 +5,6 @@ import Footer from './Footer.js';
 function Layout ({ children }) {
   return (
     <main className="h-screen">
-      <Navbar />
         <main>{children}</main>
       <Footer />
     </main>

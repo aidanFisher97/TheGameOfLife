@@ -1,0 +1,94 @@
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(#a0c4ff, white, #9bf6ff);
+  padding: 20px;
+  border: 5px solid black;
+  border-radius: 30px;
+  height: 60%;
+  width: 50%;
+}
+
+.form {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: repeat(11, 9%);
+  grid-gap: 5px;
+}
+
+.form input {
+  border: 3px solid black;
+  border-radius: 5px;
+  padding-left: 3px;
+}
+
+.title {
+  grid-column: 2;
+  grid-row: 1;
+  text-align: center;
+}
+
+.city {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.state {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.neighborhood {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.selectContainer {
+  grid-column: 1;
+  grid-row: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.type {
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.description {
+  padding-left: 3px;
+  grid-column: 1 / 4;
+  grid-row: 5 / 8;
+  border: 3px solid black;
+  border-radius: 5px;
+  resize: none;
+}
+
+.date {
+  grid-column: 2 / 4;
+  grid-row: 3 / 5;
+  margin-top: 15px;
+}
+
+.location {
+  grid-column: 2;
+  grid-row: 8;
+}
+
+.btn {
+  grid-column: 2;
+  grid-row: 9;
+}
+
+.valid {
+  color:red;
+  grid-column: 2;
+  grid-row: 10;
+  text-align: center;
+}

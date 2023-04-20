@@ -1,72 +1,119 @@
 module.exports = [
   {
-    Owner: 'Izabela',
-    Title: 'OB Bike Club',
-    City: 'San Diego',
-    State: 'California',
-    Neighborhood: 'Ocean Beach',
-    Type: 'Sports',
-    Members: [
+    owner: 'Izabela',
+    title: 'OB Bike Club',
+    city: 'San Diego',
+    state: 'California',
+    neighborhood: 'Ocean Beach',
+    type: 'Sports',
+    members: [
       'Aidan',
       'Veronica',
       'Greg'
     ],
-    Description: 'We are a family friendly bike club located in Ocean Beach, San Diego. Join us anytime!',
-    Date: 'Every Saturday at 12PM',
-    Location: 'Robb Field Park',
-    Photo: null
+    description: 'We are a family friendly bike club located in Ocean Beach, San Diego. Join us anytime!',
+    date: 'Every Saturday at 12PM',
+    location: 'Robb Field Park',
+    photo: null
   },
   {
-    Owner: 'Aidan',
-    Title: 'The Boys Book Club',
-    City: 'Los Angeles',
-    State: 'California',
-    Neighborhood: 'Santa Monica',
-    Type: 'Books',
-    Members: [
+    owner: 'Aidan',
+    title: 'The Boys Book Club',
+    city: 'Los Angeles',
+    state: 'California',
+    neighborhood: 'Santa Monica',
+    type: 'Books',
+    members: [
       'Mike',
       'Pete',
       'Will'
     ],
-    Description: 'This book club is foy boys ONLY. Girls stay out!',
-    Date: 'Every Sunday Morning at 10AM',
-    Location: 'Mike\'s Apartment',
-    Photo: null
+    description: 'This book club is foy boys ONLY. Girls stay out!',
+    date: 'Every Sunday Morning at 10AM',
+    location: 'Mike\'s Apartment',
+    photo: null
   },
   {
-    Owner: 'Jamie',
-    Title: 'The Girlie\'s Book Club',
-    City: 'Los Angeles',
-    State: 'Hollywood',
-    Neighborhood: 'Ocean Beach',
-    Type: 'Books',
-    Members: [
+    owner: 'Jamie',
+    title: 'The Girlies\' Book Club',
+    city: 'Los Angeles',
+    state: 'Hollywood',
+    neighborhood: 'Ocean Beach',
+    type: 'Books',
+    members: [
       'Izabela',
       'Jane',
       'Sammy',
       'Julie'
     ],
-    Description: 'This book club is for girls ONLY. Boys stay out!',
-    Date: 'Every Sunday Morning at 10AM',
-    Location: 'Jamie\'s Apartment',
-    Photo: null
+    description: 'This book club is for girls ONLY. Boys stay out!',
+    date: 'Every Sunday Morning at 10AM',
+    location: 'Jamie\'s Apartment',
+    photo: null
   },
   {
-    Owner: 'Mike',
-    Title: 'Surf Skaters',
-    City: 'San Diego',
-    State: 'Califonia',
-    Neighborhood: 'Ocean Beach',
-    Type: 'Sports',
-    Members: [
+    owner: 'Mike',
+    title: 'Surf Skaters',
+    city: 'San Diego',
+    state: 'Califonia',
+    neighborhood: 'Ocean Beach',
+    type: 'Sports',
+    members: [
       'Aidan',
       'Alex',
       'Will',
       'Pete'
     ],
-    Description: 'When the waves are no good let\'s hit the pump track 😎',
-    Date: 'Friday afternoon at 6PM',
-    Location: 'Pump Track',
-    Photo: null
+    description: 'When the waves are no good let\'s hit the pump track 😎',
+    date: 'Friday afternoon at 6PM',
+    location: 'Pump Track',
+    photo: null
+  },
+  {
+    owner: 'Alex',
+    title: 'The Club Club',
+    city: 'San Diego',
+    state: 'Califonia',
+    neighborhood: 'Pacific Beach',
+    type: 'Party',
+    members: [
+      'Aidan',
+      'Alex',
+      'Will',
+      'Pete',
+      'Jamie',
+      'Jane',
+      'Izabela',
+      'Twisha',
+      'Sammy',
+      'Dani'
+    ],
+    description: 'You ever wanted to join a club to go to a club? Now you can.',
+    date: 'Saturday during spooky hours',
+    location: 'Pacific Beach',
+    photo: null
+  },
+  {
+    owner: 'Aidan',
+    title: 'Plant Enthusiasts / Bible Studies',
+    city: 'San Diego',
+    state: 'Califonia',
+    neighborhood: 'Ocean Beach',
+    type: 'Party',
+    members: [
+      'Alex',
+      'Will',
+      'Pete',
+      'Jamie',
+      'Jane',
+      'Izabela',
+      'Twisha',
+      'Sammy',
+      'Dani'
+    ],
+    description: 'Do you love the bible? Neither do we! Let\'s do stuff with plants.',
+    date: 'Saturday afternoon',
+    location: 'Aidan\'s Apartment',
+    photo: null
   }
 ];

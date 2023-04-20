@@ -1,12 +1,24 @@
-const pgp = require('pg-promise')();
+const mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/gameOfLife');
+
 const express = require('express');
-require('dotenv').config();
 
 // connect to the database
-// const connection = {
+const db = mongoose.connection;
 
-// }
+db.on('error', console.error.bind(console, 'connection error: '));
 
-// const db = pgp(connection)
+const userSchema = new mongoose.Schema({
 
-// module.exports = db
+});
+
+const User = new mongoose.model('User', userSchema);
+
+const eventSchema = new mongoose.Schema({
+
+});
+
+const Event = new mongoose.model('Event', eventSchema);
+
+module.exports.User = User;
+module.exports.Event = Event;

@@ -1,0 +1,42 @@
+.clubsContainer {
+  position: relative;
+  width: screen;
+  overflow-y: hidden;
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      #fdffb6
+    )
+    #ffc6ff;
+}
+
+.card {
+  flex-shrink: 0;
+}
+
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fdffb6;
+  -webkit-text-stroke: 1px black;
+  font-size: xx-large;
+}
+
+.section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #9bf6ff;
+  -webkit-text-stroke: 1px black;
+  font-size: xx-large;
+}
+
+.section3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #caffbf;
+  -webkit-text-stroke: 1px black;
+  font-size: xx-large;
+}
